@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .bg-heist-dark {
+    background-color: #0b0c10;
+  }
+  .bg-heist-card {
+    background-color: #12141c;
+  }
+  .border-heist-red {
+    border-color: #d90429;
+  }
+  .text-heist-red {
+    color: #ef233c;
+  }
+  .glow-red {
+    box-shadow: 0 0 25px -5px rgba(217, 4, 41, 0.4);
+  }
+  .glow-red-lg {
+    box-shadow: 0 0 45px -5px rgba(217, 4, 41, 0.6);
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0b0c10;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2b2d42;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #d90429;
+}
+
+/* Subtle background noise texture */
+.heist-grid-bg {
+  background-image: radial-gradient(rgba(217, 4, 41, 0.12) 1px, transparent 1px);
+  background-size: 24px 24px;
+}

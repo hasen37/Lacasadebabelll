@@ -1,0 +1,6 @@
+{
+  "name": "La Casa Study - لاكاسا للدراسة",
+  "description": "الموقع الرسمي لقناة لاكاسا للدراسة - قوانين الكروب والقناة، تجمع أسئلة الطلاب، وروابط التليجرام المباشرة.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
