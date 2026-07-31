@@ -97,6 +97,17 @@ export default function App() {
       badge: 'الدعم التقني 📡',
       featured: false,
     },
+    {
+      id: 'discord',
+      title: ' سيرفر الدسكورد الرسمي للقناة ',
+      desc: 'الاستفسارات العلمية بين الطلبة. والمناقشات الدراسية . والتحديات .',
+      url: 'https://discord.gg/MAMMhfKgG4',
+      handle: '@discord',
+      category: 'bot',
+      icon: Radio,
+      badge: ' سيرفر الدسكورد 📡',
+      featured: false,
+    },
   ];
 
   // Rules list
@@ -472,6 +483,7 @@ export default function App() {
           </p>
           <p className="text-[11px] text-gray-500">
             جميع الحقوق محفوظة © 2026 لموقع لاكاسا الرسمي للدارسة
+            Developer:  Hussein
           </p>
         </footer>
 
