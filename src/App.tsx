@@ -44,8 +44,8 @@ export default function App() {
   const telegramLinks = [
     {
       id: 'main-study',
-      title: 'قناة خدمات الدراسة الرئيسية',
-      desc: 'المقر الرسمي لتحديات المذاكرة اليومية، النماذج الامتحانية، وجداول تنظيم الوقت لجميع المراحل.',
+      title: 'قناة  الدراسة الرئيسية',
+      desc: 'القناة الرسمية لتحديات المذاكرة اليومية، النماذج الامتحانية، وجداول تنظيم الوقت لجميع المراحل.',
       url: 'https://t.me/study_lacasa',
       handle: '@study_lacasa',
       category: 'study',
@@ -67,7 +67,7 @@ export default function App() {
     {
       id: 'ask-bot',
       title: 'رابط بوت الأسئلة والاستفسارات',
-      desc: 'لإرسال أسئلتك الدراسية، طلب الملازم، أو الإبلاغ عن أي مشكلة بالكروب مباشرة للأدمنية.',
+      desc: 'لإرسال أسئلتك الدراسية، ، أو الإبلاغ عن أي مشكلة بالكروب مباشرة للأدمنية.',
       url: 'https://t.me/lacasa_askbot',
       handle: '@lacasa_askbot',
       category: 'bot',
@@ -77,8 +77,8 @@ export default function App() {
     },
     {
       id: 'achievements',
-      title: 'قناة الإنجازات والسرقات الدراسية',
-      desc: 'سجل التحديات: توثيق ساعات الدراسة اليومية، إنجازات الطلاب اليدوية والسرقات العلمية.',
+      title: 'قناة الإنجازات والمهام الدراسية',
+      desc: 'كتابة المهام والإنجازات : توثيق ساعات الدراسة اليومية،  .',
       url: 'https://t.me/Robbery_lacasa',
       handle: '@Robbery_lacasa',
       category: 'study',
@@ -88,8 +88,8 @@ export default function App() {
     },
     {
       id: 'telecom',
-      title: 'قناة خدمات الاتصالالاتصالاتات والمعلومات',
-      desc: 'الأخبار والدعم التقني، التحديثات المستمرة، وروابط مجموعات التحدي المغلقة.',
+      title: ' قناة التجمع للاستفسارات العلمية بين الطلبة ',
+      desc: 'الاستفسارات العلمية بين الطلبة. والمناقشات الدراسية . والتحديات .',
       url: 'https://t.me/lacasa66',
       handle: '@lacasa66',
       category: 'bot',
@@ -103,8 +103,8 @@ export default function App() {
   const rulesList = [
     {
       id: 1,
-      title: 'ممنممنوعوع الدخول خاص نهائياً (القانون الحاسم) 🛑',
-      desc: 'أنتَ جاي تدرس لو تتعرف؟ ممنوع أي ولد أو بنية يدخل خاص لأحد. إذا دخل طرف وجاوبه الطرف الثاني تنطردون أثنينكم! حتى لو نيتكم دراسة وتحديات، خلوا كل اتفاقكم ومواضيعكم بالكروب العام. الخاص يسبب علاقات وتعلّق وبالتالي يدمر مستقبلك ودراستك بالسادس، كبّر عقلك وعف مشاعرك على صفحة.',
+      title: 'ممنوع الدخول خاص نهائياً (القانون الحاسم) 🛑',
+      desc: 'أنتَ جاي تدرس لو تتعرف؟ ممنوع أي ولد أو بنية يدخل خاص لأحد. إذا دخل طرف وجاوبه الطرف الثاني تنطردون أثنينكم! حتى لو نيتكم دراسة وتحديات، خلوا كل اتفاقكم ومواضيعكم بالكروب العام. الخاص يسبب علاقات وتعلّق وبالتالي يدمر مستقبلك ودراستك ، كبّر عقلك واترك مشاعرك على صفحة.',
       severity: 'طرد مباشر ونهائي للطرفين',
       highlight: true,
     },
@@ -210,7 +210,7 @@ export default function App() {
       <div className="bg-gradient-to-r from-red-950 via-[#18080b] to-red-950 border-b border-red-800/70 px-4 py-2.5 text-center text-xs text-red-200 flex items-center justify-center gap-2 shadow-lg">
         <AlertTriangle className="w-4 h-4 text-red-500 animate-pulse flex-shrink-0" />
         <span className="font-extrabold text-red-200">
-          🚨 تنبيه حازم: التراسل بالخاص بين الطلاب ممنوع نهائياً وتؤدي للمطاردة والطرد الفوري للطرفين!
+          🚨 تنبيه مهم: المراسلة بالخاص بين الطلاب ممنوع نهائياً وتؤدي للعقوبة والطرد الفوري للطرفين!
         </span>
         <button
           onClick={() => setShowRulesModal(true)}
@@ -256,7 +256,7 @@ export default function App() {
           {/* Titles & Description */}
           <div className="space-y-2">
             <h1 className="text-2xl sm:text-3xl font-black text-white tracking-tight font-['Readex_Pro'] flex items-center justify-center gap-2">
-              <span>مقر لاكاسا للدراسة والتحديات</span>
+              <span>موقع قناة  لاكاسا الرسمي للدراسة والتحديات</span>
             </h1>
             
             <div className="inline-flex items-center gap-1.5 bg-red-950/80 text-red-400 border border-red-700/60 text-xs font-black px-3.5 py-1 rounded-full shadow-inner">
@@ -468,10 +468,10 @@ export default function App() {
         {/* Footer */}
         <footer className="text-center pt-6 pb-4 text-xs text-gray-500 space-y-1.5 border-t border-gray-900">
           <p className="font-extrabold text-gray-300">
-            مقر لاكاسا للدراسة • La Casa Study Hub 🎓
+            موقع لاكاسا الرسمي  للدراسة • La Casa Study Hub 🎓
           </p>
           <p className="text-[11px] text-gray-500">
-            تجمّع طلابي حازم ونظيف لجميع المراحل الدراسية في العراق
+            جميع الحقوق محفوظة © 2026 لموقع لاكاسا الرسمي للدارسة
           </p>
         </footer>
 
@@ -580,7 +580,7 @@ export default function App() {
                 <label className="block text-xs font-bold text-gray-300 mb-1">السؤال أو الاستفسار:</label>
                 <textarea
                   rows={4}
-                  placeholder="اكتب سؤالك هنا بوضوح ليتم تنسيقه وإرساله للبروفيسور..."
+                  placeholder="اكتب سؤالك هنا بوضوح ليتم تنسيقه وإرساله للأدمنية..."
                   value={questionText}
                   onChange={(e) => setQuestionText(e.target.value)}
                   className="w-full bg-black border border-gray-700 rounded-xl p-3 text-xs text-white leading-relaxed"
